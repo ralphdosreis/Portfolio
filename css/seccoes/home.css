@@ -1,0 +1,116 @@
+.home-bg {
+  background: #18232e;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 40px;
+}
+
+.home-conteudo {
+  align-self: center;
+  margin: 0 10px;
+}
+
+.home-titulo {
+  font-family: "Source Code Pro", monospace;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.botao {
+  display: inline-block;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1rem;
+  line-height: 1.33;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ea5313;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  background: #bb3300;
+}
+
+.botao.linkedin,
+.botao.github,
+.botao.curriculo {
+  display: flex;
+  align-items: center;
+}
+
+.botao.linkedin::before {
+  content: "";
+  display: inline-block;
+  background: url(/img/icon-linkedin.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.botao.github::before {
+  content: "";
+  display: inline-block;
+  background: url(/img/github.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.botao.curriculo::before {
+  content: "";
+  display: inline-block;
+  background: url(/img/icon-curriculum.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.ilustracao-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .home {
+    gap: 20px;
+  }
+  .home-titulo {
+    font-size: 2.5rem;
+  }
+  .botao {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home {
+    grid-template-columns: auto;
+  }
+  .ilustracao-home {
+    display: none;
+  }
+  .home-conteudo {
+    display: grid;
+  }
+  .home-titulo {
+    justify-content: center;
+  }
+}
