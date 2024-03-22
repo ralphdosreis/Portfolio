@@ -89,6 +89,9 @@
 }
 
 @media (max-width: 800px) {
+  .container {
+    margin: 0 10px;
+  }
   .home {
     gap: 20px;
   }
@@ -100,17 +103,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .home {
     grid-template-columns: auto;
   }
   .ilustracao-home {
     display: none;
-  }
-  .home-conteudo {
-    display: grid;
-  }
-  .home-titulo {
-    justify-content: center;
   }
 }

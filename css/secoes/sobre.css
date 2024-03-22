@@ -51,7 +51,7 @@
   font-weight: 500;
   color: #18232e;
   margin-bottom: 20px;
-  max-width: 58ch;
+  max-width: 60ch;
 }
 
 .sobre-conteudo span {
@@ -81,6 +81,9 @@
 }
 
 @media (max-width: 900px) {
+  .container {
+    margin: 0 10px;
+  }
   .alinhamento {
     display: grid;
     grid-template-columns: auto;

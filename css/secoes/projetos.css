@@ -33,13 +33,16 @@
 .container-item p {
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  line-height: 1.2;
   font-weight: 500;
   color: #18232e;
 }
 
 @media (max-width: 900px) {
+  .container {
+    margin: 0 10px;
+  }
   .projetos-itens {
     gap: 20px;
   }

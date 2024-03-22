@@ -16,7 +16,7 @@
   <header class="header-bg">
     <div class="header container">
       <a class="logo-header" href="./index.html"><img src="./img/icon-logo.svg" alt="Ralph"></a>
-      <nav>
+      <nav data-menu="suave">
         <ul class="header-menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#sobre">Sobre</a></li>
@@ -26,7 +26,7 @@
       </nav>
     </div>
   </header>
-  <main class="home-bg" id="home">
+  <main class="home-bg" id="home" data-anime="scroll">
     <div class="home container">
       <div class="home-conteudo">
         <h1 class="home-titulo">Desenvolvedor <br>Front-end & <br>UX/UI Designer</h1>
@@ -39,13 +39,13 @@
       <img class="ilustracao-home" src="./img/ilustracao.svg" alt="Pessoa em frente ao computador">
     </div>
   </main>
-  <section class="sobre container" id="sobre">
+  <section class="sobre container" id="sobre" data-anime="scroll">
     <p class="subtitulo">Cursos, habilidades e experiência</p>
     <h2 class="titulo">sobre mim<span>.</span></h2>
     <div class="alinhamento">
       <img class="perfil" src="./img/foto-perfil.jpg" alt="Perfil">
       <div class="sobre-conteudo">
-        <p>Olá! Sou Ralph dos Reis, estudante da Universidade Federal de Goiás. Inicialmente matriculado no curso de Engenharia Física, minha trajetória acadêmica tomou um novo rumo devido ao meu crescente interesse na área de tecnologia e programação. Atualmente, estou em processo de transição para o curso de <span>Ciência da Computação,</span> onde espero consolidar minha paixão por desenvolvimento de software. Minha jornada nesta área começou há aproximadamente um ano e meio, e desde então tenho me dedicado intensamente ao estudo do <span>Front-end e UI/UX Design.</span> Busco constantemente aprimorar meus conhecimentos, visando me tornar um desenvolvedor fullstack no futuro.</p>
+        <p>Olá! Sou Ralph dos Reis Torres, estudante da Universidade Federal de Goiás. Inicialmente matriculado no curso de Engenharia Física, minha trajetória acadêmica tomou um novo rumo devido ao meu crescente interesse na área de tecnologia e programação. Atualmente, estou em processo de transição para o curso de <span>Ciência da Computação,</span> onde espero consolidar minha paixão por desenvolvimento de software. Minha jornada nesta área começou há aproximadamente um ano e meio, e desde então tenho me dedicado intensamente ao estudo do <span>Front-end e UI/UX Design.</span> Busco constantemente aprimorar meus conhecimentos, visando me tornar um desenvolvedor fullstack no futuro.</p>
         <ul class="hard-skills">
           <li class="skills-item">
             <img src="./img/icon-html.svg" alt="">
@@ -79,14 +79,14 @@
       </div>
     </div>
   </section>
-  <section class="projetos-bg" id="projetos">
+  <section class="projetos-bg" id="projetos" data-anime="scroll">
     <div class=" projetos container">
       <p class="subtitulo">Propósitos e tecnologias utilizadas</p>
       <h2 class="titulo">projetos<span>.</span></h2>
       <div class="projetos-itens">
         <div class="container-item">
           <a href=""><img src="./img/bikcraft-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
+          <p>Projeto elaborado utilizando HTML, CSS e JavaScript, visando a prática dos conhecimentos em HTML e CSS.</p>
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
@@ -94,7 +94,7 @@
         </div>
         <div class="container-item">
           <a href=""><img src="./img/wildbeast-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
+          <p>Projeto desenvolvido utilizando HTML e CSS, com o propósito de aprimorar as habilidades em CSS Grid Layout.</p>
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
@@ -102,7 +102,7 @@
         </div>
         <div class="container-item">
           <a href=""><img src="./img/flexblog-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
+          <p>Desenvolvido com HTML e CSS, com o intuito de aprimorar as habilidades em CSS Flexbox.</p>
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
@@ -110,7 +110,7 @@
         </div>
         <div class="container-item">
           <a href=""><img src="./img/animais-fantasticos-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
+          <p>Projeto feito com o objetivo de praticar os conhecimentos adquiridos de JavaScript.</p>
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
@@ -126,7 +126,7 @@
         </div>
         <div class="container-item">
           <a href=""><img src="./img/portfolio-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
+          <p>Portfólio pessoal elaborado com HTML, CSS e JavaScript.</p>
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
@@ -140,15 +140,17 @@
       <a class="footer-logo" href="#"><img src="./img/icon-logo.svg" alt=""></a>
       <div class="footer-contato">
         <h3>Contato</h3>
-          <ul>
-            <li class="footer-info"><a href="tel:+5562981890760">+55 62 98189-0760</a></li>
-            <li class="footer-info"><a href="mailto:ralphdosreistorres@gmail.com">ralphdosreistorres@gmail.com</a></li>
-            <li class="footer-info"><p>Goiânia-GO</p></li>
-          </ul>
+        <ul>
+          <li class="footer-info"><a href="tel:+5562981890760">+55 62 98189-0760</a></li>
+          <li class="footer-info"><a href="mailto:ralphdosreistorres@gmail.com">ralphdosreistorres@gmail.com</a></li>
+          <li class="footer-info">
+            <p>Goiânia-GO</p>
+          </li>
+        </ul>
       </div>
       <div class="footer-navegação">
         <h3>Navegação</h3>
-        <ul>
+        <ul data-menu="suave">
           <li class="footer-info"><a href="#home">Home</a></li>
           <li class="footer-info"><a href="#sobre">Sobre</a></li>
           <li class="footer-info"><a href="#projetos">Projetos</a></li>
@@ -157,7 +159,7 @@
       <img class="footer-icon" src="./img/footer-icon.svg" alt="">
     </div>
   </footer>
-  <script src="./js/script.js"></script>
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
   grid-template-columns: 5fr 2fr 2fr 1fr;
   padding-top: 40px;
   padding-bottom: 40px;
-  gap: 40px;
+  gap: 60px;
 }
 
 .footer h3 {
@@ -50,6 +50,9 @@ p {
 }
 
 @media (max-width: 800px) {
+  .container {
+    margin: 0 10px;
+  }
   .footer {
     grid-template-columns: 2fr 2fr 1fr;
   }
@@ -64,11 +67,18 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .footer {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
   }
   .footer-icon {
     display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    grid-template-columns: 1fr;
   }
 }
