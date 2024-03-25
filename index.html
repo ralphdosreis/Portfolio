@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <meta name="description" content="Portfolio pessoal de Ralph dos Reis Torres">
+  <title>Ralph dos Reis</title>
+  <meta name="description" content="Portfólio do desenvolvedor de software Ralph dos Reis Torres.">
+  <link rel="icon" href="./img/favicon1.svg">
+  <script>document.documentElement.className += ' js'</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-  <header class="header-bg">
+  <header class="header-bg" id="header">
     <div class="header container">
       <a class="logo-header" href="./index.html"><img src="./img/icon-logo.svg" alt="Ralph"></a>
       <nav data-menu="suave">
@@ -33,19 +35,19 @@
         <div class="botoes">
           <a class="botao linkedin" href="https://www.linkedin.com/in/ralph-dos-reis-torres-3163a5271/">Linkedin</a>
           <a class="botao github" href="https://github.com/ralphdosreis">Github</a>
-          <a class="botao curriculo" href="">Curriculo</a>
+          <a class="botao curriculo" href="https://drive.google.com/file/d/1EOc2pZ3mVBo_6hxBAIuzl8OWALWYNOgR/view">Curriculo</a>
         </div>
       </div>
-      <img class="ilustracao-home" src="./img/ilustracao.svg" alt="Pessoa em frente ao computador">
+      <img class="ilustracao-home" src="./img/ilustracao.svg" alt="Pessoa em frente ao computador" data-tilt>
     </div>
   </main>
-  <section class="sobre container" id="sobre" data-anime="scroll">
+  <section class=" sobre container" id="sobre" data-anime="scroll">
     <p class="subtitulo">Cursos, habilidades e experiência</p>
     <h2 class="titulo">sobre mim<span>.</span></h2>
     <div class="alinhamento">
       <img class="perfil" src="./img/foto-perfil.jpg" alt="Perfil">
       <div class="sobre-conteudo">
-        <p>Olá! Sou Ralph dos Reis Torres, estudante da Universidade Federal de Goiás. Inicialmente matriculado no curso de Engenharia Física, minha trajetória acadêmica tomou um novo rumo devido ao meu crescente interesse na área de tecnologia e programação. Atualmente, estou em processo de transição para o curso de <span>Ciência da Computação,</span> onde espero consolidar minha paixão por desenvolvimento de software. Minha jornada nesta área começou há aproximadamente um ano e meio, e desde então tenho me dedicado intensamente ao estudo do <span>Front-end e UI/UX Design.</span> Busco constantemente aprimorar meus conhecimentos, visando me tornar um desenvolvedor fullstack no futuro.</p>
+        <p>Olá! Sou Ralph dos Reis Torres, estudante da Universidade Federal de Goiás. Inicialmente matriculado no curso de Engenharia Física, minha trajetória acadêmica tomou um novo rumo devido ao meu crescente interesse na área de tecnologia e programação. Atualmente, estou em processo de transição para o curso de <span>Ciência da Computação,</span> onde espero consolidar minha paixão por desenvolvimento de software. Minha jornada nesta área começou há aproximadamente um ano, e desde então tenho me dedicado intensamente ao estudo do <span>Front-end e UI/UX Design.</span> Busco constantemente aprimorar meus conhecimentos, visando me tornar um desenvolvedor fullstack no futuro.</p>
         <ul class="hard-skills">
           <li class="skills-item">
             <img src="./img/icon-html.svg" alt="">
@@ -85,43 +87,35 @@
       <h2 class="titulo">projetos<span>.</span></h2>
       <div class="projetos-itens">
         <div class="container-item">
-          <a href=""><img src="./img/bikcraft-site.jpg" alt=""></a>
-          <p>Projeto elaborado utilizando HTML, CSS e JavaScript, visando a prática dos conhecimentos em HTML e CSS.</p>
+          <a href="https://bikcraft-bike.netlify.app/"><img src="./img/bikcraft-site.jpg" alt=""></a>
+          <p>Projeto elaborado no curso da Origamid de HTML e CSS, visando a prática dos conhecimentos em HTML e CSS.</p>
           <div>
-            <a class="botao" href="">Site</a>
-            <a class="botao" href="">Github</a>
+            <a class="botao" href="https://bikcraft-bike.netlify.app/">Site</a>
+            <a class="botao" href="https://github.com/ralphdosreis/bikcraft">Github</a>
           </div>
         </div>
         <div class="container-item">
-          <a href=""><img src="./img/wildbeast-site.jpg" alt=""></a>
-          <p>Projeto desenvolvido utilizando HTML e CSS, com o propósito de aprimorar as habilidades em CSS Grid Layout.</p>
+          <a href="https://wildbeast-site.netlify.app/"><img src="./img/wildbeast-site.jpg" alt=""></a>
+          <p>Projeto desenvolvido no curso de CSS Grid Layout da Origamid, com o propósito de aprimorar as habilidades em CSS Grid Layout.</p>
           <div>
-            <a class="botao" href="">Site</a>
-            <a class="botao" href="">Github</a>
+            <a class="botao" href="https://wildbeast-site.netlify.app/">Site</a>
+            <a class="botao" href="https://github.com/ralphdosreis/Wildbeast">Github</a>
           </div>
         </div>
         <div class="container-item">
-          <a href=""><img src="./img/flexblog-site.jpg" alt=""></a>
-          <p>Desenvolvido com HTML e CSS, com o intuito de aprimorar as habilidades em CSS Flexbox.</p>
+          <a href="https://flexblog-site.netlify.app/"><img src="./img/flexblog-site.jpg" alt=""></a>
+          <p>Desenvolvido com HTML e CSS Flexbox no curso da Origamid, com o intuito de aprimorar as habilidades em CSS Flexbox.</p>
           <div>
-            <a class="botao" href="">Site</a>
-            <a class="botao" href="">Github</a>
+            <a class="botao" href="https://flexblog-site.netlify.app/">Site</a>
+            <a class="botao" href="https://github.com/ralphdosreis/Flexblog">Github</a>
           </div>
         </div>
         <div class="container-item">
-          <a href=""><img src="./img/animais-fantasticos-site.jpg" alt=""></a>
-          <p>Projeto feito com o objetivo de praticar os conhecimentos adquiridos de JavaScript.</p>
+          <a href="https://animais-fantasticos-site.netlify.app/"><img src="./img/animais-fantasticos-site.jpg" alt=""></a>
+          <p>Projeto feito com o objetivo de praticar os conhecimentos adquiridos em JavaScript do curso da Origamid.</p>
           <div>
-            <a class="botao" href="">Site</a>
-            <a class="botao" href="">Github</a>
-          </div>
-        </div>
-        <div class="container-item">
-          <a href=""><img src="./img/bikcraft-site.jpg" alt=""></a>
-          <p>Projeto feito em HTML, CSS, JavaScript e UI Design</p>
-          <div>
-            <a class="botao" href="">Site</a>
-            <a class="botao" href="">Github</a>
+            <a class="botao" href="https://animais-fantasticos-site.netlify.app/">Site</a>
+            <a class="botao" href="https://github.com/ralphdosreis/Animais-Fant-sticos">Github</a>
           </div>
         </div>
         <div class="container-item">
@@ -130,6 +124,13 @@
           <div>
             <a class="botao" href="">Site</a>
             <a class="botao" href="">Github</a>
+          </div>
+        </div>
+        <div class="container-item">
+          <a href=""><img src="./img/surfbot-site.jpg" alt=""></a>
+          <p>Em desenvolvimento...</p>
+          <div>
+            <a class="botao" href="https://github.com/ralphdosreis/Surfbot">Github</a>
           </div>
         </div>
       </div>
@@ -151,7 +152,7 @@
       <div class="footer-navegação">
         <h3>Navegação</h3>
         <ul data-menu="suave">
-          <li class="footer-info"><a href="#home">Home</a></li>
+          <li class="footer-info"><a href="#header">Home</a></li>
           <li class="footer-info"><a href="#sobre">Sobre</a></li>
           <li class="footer-info"><a href="#projetos">Projetos</a></li>
         </ul>
@@ -160,6 +161,7 @@
     </div>
   </footer>
   <script type="module" src="./js/script.js"></script>
+  <script src="./js/vanila-tilt.js"></script>
 </body>
 
 </html>
