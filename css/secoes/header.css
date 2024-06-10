@@ -57,11 +57,12 @@
   }
   .header-menu a {
     background: #223344;
-    padding: 8px 16px;
+    padding: 5px 10px;
     border-radius: 4px;
+    font-size: .875rem;
   }
   .header-menu a:hover {
-    background: #404a53;
+    background: #223344;
   }
   .header-menu a::after {
     display: none;
@@ -75,7 +76,8 @@
 
   .header-menu a {
     margin-top: 10px;
-    padding: 8px 12px;
-    font-size: 14px;
+  }
+  .header-menu a:hover {
+    color: #EE2211;
   }
 }
