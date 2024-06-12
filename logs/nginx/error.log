@@ -1,5 +1,0 @@
-2024/05/23 09:18:34 [error] 9092#4820: *1 directory index of "C:/Users/DELL/Desktop/projetos-pessoais/portfolio/app/public/" is forbidden, client: ::1, server: , request: "GET / HTTP/1.1", host: "localhost:10016"
-2024/05/23 09:18:36 [error] 9092#4820: *1 directory index of "C:/Users/DELL/Desktop/projetos-pessoais/portfolio/app/public/" is forbidden, client: ::1, server: , request: "GET / HTTP/1.1", host: "localhost:10016"
-2024/05/23 09:18:37 [error] 9092#4820: *1 directory index of "C:/Users/DELL/Desktop/projetos-pessoais/portfolio/app/public/" is forbidden, client: ::1, server: , request: "GET / HTTP/1.1", host: "localhost:10016"
-2024/05/23 09:18:37 [error] 9092#4820: *1 directory index of "C:/Users/DELL/Desktop/projetos-pessoais/portfolio/app/public/" is forbidden, client: ::1, server: , request: "GET / HTTP/1.1", host: "localhost:10016"
-2024/05/23 09:18:38 [error] 9092#4820: *1 directory index of "C:/Users/DELL/Desktop/projetos-pessoais/portfolio/app/public/" is forbidden, client: ::1, server: , request: "GET / HTTP/1.1", host: "localhost:10016"
