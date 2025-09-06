@@ -97,3 +97,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 600px) {
+  .perfil {
+    width: 300px;
+    height: 300px;
+  }
+}
