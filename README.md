@@ -28,4 +28,4 @@ Se você quiser explorar o código ou testar o projeto em sua máquina:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/ralphdosreis/Portfolio.git](https://github.com/ralphdosreis/Portfolio.git)
+   git clone https://github.com/ralphdosreis/Portfolio.git
